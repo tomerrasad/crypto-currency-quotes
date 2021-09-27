@@ -1,0 +1,218 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    background-image: url("background.webp");
+    min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+#gifimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 15%;
+    height: 25%;
+    z-index: 10000;
+    position: fixed;
+}
+#welcome{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 57%;
+    text-align: center;
+    background-color: #ffe34c;
+    font-style: italic;
+    MIN-WIDTH: 340PX;
+    BORDER-RADIUS: 0.6VMIN;
+    BOX-SHADOW: 0 0 1VMIN 0.2VMIN #000, 0 0 5VMIN #000;
+    TEXT-SHADOW: -0.1VMIN -0.2VMIN #fff;
+    
+}
+#hometext{
+    font-style: italic;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80%;
+    BORDER-TOP: SOLID #0d6efd;
+    BOX-SHADOW: 0 0 5VMIN 1.2VMIN #000000db;
+
+}
+.itemsdivs{
+    width: 15%;
+    height: 35vh;
+    background-color: #dedede;
+    border: 1px solid #888888;
+    margin: 2%;
+    position: relative;
+    BORDER-RADIUS: 0.4VMIN;
+    BOX-SHADOW: 0 1.2VMIN 1.2VMIN -1VMIN #000000bf;
+    MIN-WIDTH: 110PX;
+}
+#toggle{
+    position: absolute;
+    top: 12%;
+    right: 1%;
+    
+}
+.infobtn{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    RIGHT: 0;
+    MARGIN: AUTO;
+    TEXT-SHADOW: 0 0.2VMIN black;
+}
+.moreinfo p{
+    margin: 0%;
+    
+}
+.moreinfodiv{
+    position: relative;
+    background-color: #fff3e4;
+    border: black 1px solid;
+    BORDER-RIGHT: NONE;
+    BORDER-LEFT: NONE;
+    TEXT-ALIGN: CENTER;
+    LINE-HEIGHT: normal;
+    
+   
+    
+}
+.checked{
+    width: 40%;
+    height: 80%;
+    background-color: crimson;
+    position: absolute;
+    z-index: 9999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    filter : alpha(opacity=60);
+    display: none;
+    border-radius: 10%;
+    border: 1px solid black;
+    
+}
+.checkedTitle{
+    margin-top: 7%;
+    position: absolute;
+    transform: translate(5%,0%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    text-shadow: 2px 2px rgb(129, 125, 125);
+
+}
+#closebtn{
+    border-radius: 20%;
+    border: 1px solid black;
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+.chosenlist{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+
+} 
+.togglebtn1{
+    position: absolute;
+    top: 36%;
+    right: 10%;
+    z-index: 99;
+}
+.togglebtn2{
+    position: absolute;
+    top: 44%;
+    right: 10%;
+    z-index: 99;
+}
+.togglebtn3{
+    position: absolute;
+    top: 52%;
+    right: 10%;
+    z-index: 99;
+}
+.togglebtn4{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    z-index: 99;
+}
+.togglebtn5{
+    position: absolute;
+    top: 68%;
+    right: 10%;
+    z-index: 99;
+}
+.disabledthescreen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 98;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 48, 48, 0.432);
+    position: fixed;
+    display: none;
+}
+.about{
+    display: block;
+    
+    width:100vw;
+    height: 91vh;
+    background-color: aliceblue;
+}
+.myimg{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    right: 0%;
+    bottom: 10%;
+    border: black 1px solid;
+    BOX-SHADOW: 0 0 1VMIN 0.1VMIN #000, 0 0 1VMIN #000;
+}
+.aboutTitle{
+    text-align: center;
+    
+}
+.aboutinfo{
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-size: 1.5em;
+}
+.aboutname{
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+}
+.moreinfo{
+    display: none;
+}
+.grandfather{
+    margin: 0%;
+    
+    
+}
